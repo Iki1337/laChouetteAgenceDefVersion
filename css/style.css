@@ -28,7 +28,7 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 
 .bouton{
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #212121;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -42,6 +42,7 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 
 .bouton:hover {
     background: #c27956;
+    color: #FFFFFF;
 }
 
 .presentation h2, .citation .quotes, .portfolio h2{
@@ -150,28 +151,29 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 }
 
 .banniereFormulaire h1{
-    color: #F3976C;
+    color: #FFFFFF;
 }
 
 .banniereFormulaire p{
-    color: #F3976C;
+    color: #FFFFFF;
     font-size: 13px;
 }
 
 .boutonFormulaire{
     background: #F3976C;
-    color: #FFFFFF;
+    color: #212121;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
     transition: all .3s ease-in-out;
 }
 
 .boutonFormulaire:hover {
     background: #c27956;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgb(0, 0, 1);
 }
 
 footer{
@@ -179,8 +181,9 @@ footer{
 }
 
 footer p{
-    color: #FFFFFF;
+    color: #000000;
     font-size: 13px;
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
 }
 
 footer span{
