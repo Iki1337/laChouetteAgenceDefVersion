@@ -75,7 +75,7 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 
 .infos{
     text-align: center;
-    background-image: url(../img/texture-paper.png) ,url(../img/image-de-presentation.bmp);
+    background-image: url(../img/texture-paper.png) ,url(../img/image-de-presentation.jpg);
     background-position: center,top;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
