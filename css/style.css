@@ -1,0 +1,247 @@
+a, a:hover{
+    text-decoration: none;
+}
+
+h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
+    font-family: "helvetica";
+    color: #575757;
+}
+
+.navbar{
+    min-height: 95px;
+}
+.banniere{
+    text-align: center;
+    background-color: #364577;
+    background-image: url(../img/texture-paper.png), url(../img/la-chouette-agence-banniere.jpg);
+    background-position: center, top;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-size: 280px 280px, auto;
+}
+
+.banniere h1{
+    font-size: 32px;
+    color: #F3976C;
+    font-weight: 400;
+}
+
+.bouton{
+    background: #F3976C;
+    color: #FFFFFF!important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+.bouton:hover {
+    background: #c27956;
+}
+
+.presentation h2, .citation .quotes, .portfolio h2{
+    color:rgb(66, 66, 66);
+    font-size: 1.4rem;
+}
+
+.citation .quotes{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.icones span{
+    font-size: 60px;
+    color: #364577;
+    border-color: #364577;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.icones h3, .portfolio h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+.icones p, .portfolio p {
+    font-size: 14px;
+    color: #575757;
+}
+
+.infos{
+    text-align: center;
+    background-image: url(../img/texture-paper.png) ,url(../img/image-de-presentation.bmp);
+    background-position: center,top;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-size: 280px 280px,cover;
+}
+
+.infos article{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgba(165, 147, 99, 0.7);
+    background-image: url(../img/texture-paper.png);
+    background-position: center;
+    background-size: 280px 280px;
+    padding: 40px 40px 40px 40px;
+}
+
+.infos article h2{
+    color: #F3976C;
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+.infos article p{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+.infos article a{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+
+.infos article a:hover {
+    color: #cccccc;
+}
+
+.portfolio{
+    background-image: url(../img/lines-h2-bg.png);
+}
+
+.portfolio-thumb{
+    width: 100%;
+}
+
+.banniere_contact{
+    background-image: url(../img/texture-paper.png) ,url(../img/la-chouette-agence-banniere.jpg);
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll;
+    background-size: 280px 280px,cover;
+}
+
+.banniere_contact h2{
+    color: #F3976C;
+    font-size: 22px;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+.banniereFormulaire{
+    background-color: #F3976C;
+    background-image: url(../img/texture-paper.png) ,url(../img/dots-bg.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 280px 280px, 100px 100px;
+}
+
+.banniereFormulaire h1{
+    color: #F3976C;
+}
+
+.banniereFormulaire p{
+    color: #F3976C;
+    font-size: 13px;
+}
+
+.boutonFormulaire{
+    background: #F3976C;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+    transition: all .3s ease-in-out;
+}
+
+.boutonFormulaire:hover {
+    background: #c27956;
+}
+
+footer{
+    background-color: #F3976C;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+footer span{
+    color: #FFFFFF;
+    font-size: 40px;
+    opacity: 0.6;
+}
+
+footer svg{
+    width: 40px;
+    fill: #FFFFFF;
+    opacity: 0.6;
+}
+
+footer span:hover, footer svg:hover{
+    opacity: 1;
+}
+
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+
+a.lightbox {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+a.lightbox:hover::before {
+    content: "+";
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 1);
+    color: #FFF;
+    font-weight: 100;
+    z-index: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+a.lightbox:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: #FFFFFF;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+}
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+/*###############################################################################################################################################################*/
+
