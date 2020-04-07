@@ -101,13 +101,13 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 
 .infos article p{
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 1rem;
     line-height: 1.4em;
 }
 
 .infos article a{
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 900;
     text-decoration: underline;
     transition: all .3s ease-in-out;
@@ -115,7 +115,8 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 }
 
 .infos article a:hover {
-    color: #cccccc;
+    color: #F3976C;
+    font-size: 1.1rem;
 }
 
 .portfolio{
@@ -156,7 +157,7 @@ h1, h2, h3, p, a:not(.next-lightbox:hover, .prev-lightbox:hover){
 
 .banniereFormulaire p{
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 1rem;
 }
 
 .boutonFormulaire{
@@ -232,7 +233,7 @@ a.lightbox:hover img {
     animation-fill-mode: none;
 }
 
-.carousel-caption h5, .carousel-caption p{
+.carousel-caption h4, .carousel-caption p{
     color: #FFFFFF;
     text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
